@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+       html,body{
+            background-color: rgb(192, 227, 237);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            width: 100%;
+        }
+        div {
+            background-color:rgb(217, 101, 190);
+            /* border: 5px solid rgb(68, 64, 64); */
+            /* /* padding:5px; */
+            border-radius:20px;
+            /* padding-top:1px; */
+            height: 293px;
+            width: 370px;
+            /* box-sizing: border-box; */
+        }
+        fieldset{
+            height: 260px;
+            width: 320px;
+            border-radius: 20px;              
+        }
+        form{
+            font-size:25px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        legend{
+            text-align: center;
+            font-size: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <form>
+            <fieldset>
+                <legend><b>Login</b></legend>
+                <br>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" placeholder="email">
+                <br>
+                <label for="password">password</label><br>
+                <input type="password" id="password" name="password" placeholder="password"><br><br>
+                <input style="font-size: 20px; background-color: rgb(106, 77, 105);" type="submit">
+
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
